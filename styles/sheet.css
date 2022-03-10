@@ -4,16 +4,33 @@
 }
 
 body {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left:0;
+}
+
+hr {
+    width: 70%;
 }
 
 fieldset {
     border: none;
+    
 }
 
-.news {
-    display: inline-flex;
-    text-align: left;
+div.news {
+    display: inline-flex !important;
 /* need revision */
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro h1 {
+    background: rgb(93, 120, 143);
+    padding: 1em;
+    margin-top: 0;
 }
 
