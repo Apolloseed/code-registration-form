@@ -2,3 +2,18 @@
     box-sizing: border-box;
     width: 100%;
 }
+
+body {
+    
+}
+
+fieldset {
+    border: none;
+}
+
+.news {
+    display: inline-flex;
+    text-align: left;
+/* need revision */
+}
+
