@@ -6,8 +6,8 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    margin-left:0;
+   /*  justify-content: space-around; */
+    /* margin-left:0; */
 }
 
 hr {
@@ -20,7 +20,12 @@ fieldset {
 }
 
 div.news {
-    display: inline-flex !important;
+    display: flex !important;
+    width: 30%;
+    flex-wrap: nowrap;
+    margin: 0 !important;
+    padding: 0 !important;
+    align-content:flex-start;    
 /* need revision */
 }
 
