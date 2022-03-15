@@ -1,11 +1,12 @@
 * {
     box-sizing: border-box;
-    width: 100%;
+    
 }
 
 body {
     display: flex;
     flex-direction: column;
+    flex-wrap:wrap;
    /*  justify-content: space-around; */
     /* margin-left:0; */
 }
@@ -19,14 +20,16 @@ fieldset {
     
 }
 
+.cont {
+    width: 100%;
+}
+
 div.news {
     display: flex !important;
-    width: 30%;
     flex-wrap: nowrap;
     margin: 0 !important;
     padding: 0 !important;
-    align-content:flex-start;    
-/* need revision */
+    align-content:flex-start;
 }
 
 .intro {
