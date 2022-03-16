@@ -34,12 +34,15 @@ div.news {
 
 .intro {
     text-align: center;
+    width: 100vw;
 }
 
 .intro h1 {
+    display: block;
     background: rgb(93, 120, 143);
-    padding: 1em;
-    margin-top: 0;
+    margin: 0;
+    font-size: 1.3em;
+    padding: 1.5em;
     color:white;
 }
 
