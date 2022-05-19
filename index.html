@@ -19,11 +19,11 @@
         <fieldset class="cont">
             <label for="fullname">Full Name</label>
             <br>
-            <input type="text" id="fullname" name="full-name" placeholder="Required">
+            <input type="text" id="fullname" name="full-name" placeholder="                                                            Required">
             <br>
             <label for="email">Email Address</label>
             <br>
-            <input type="email" id="email" name="full-name" placeholder="Required">
+            <input type="email" id="email" name="full-name"name="full-name" placeholder="                                                            Required">
             <br>
             <label for="phone">Phone Number</label>
             <br>
@@ -39,7 +39,8 @@
             <br>
             <label for="state">State</label> <!-- drop down menu needed here-->
             <br>
-                <select id="state" placeholder="Choose State">
+                <select id="state">
+                    <option value="" disabled selected>Choose State</option>
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
                     <option value="AZ">Arizona</option>
@@ -103,6 +104,7 @@
         <fieldset>
             <label>Select the newsletters you would like to recieve</label>
             <br>
+            <br>
             <div class="news">
                 <input type="checkbox" id="html-news" name="news">
                 <label for="html-news">HTML News</label>
@@ -121,6 +123,7 @@
             <br>
             <label>Select the newsletters you would like to recieve</label>
             <br>
+            <br>
             <div class="news">
                 <input type="radio" id="html-format" name="newsletter">
                 <label for="html-format">HTML</label>
@@ -133,10 +136,15 @@
             <br>
             <br>
             <label>Other topics you'd like to hear  about</label>
+            <br>
+            <br>
             <textarea></textarea>
         </fieldset>
+        <br>
         <button type="submit">Sign Up</button>
     </form>
+    <br>
+    <footer>&copy;Copyright The Code Review</footer>
 </body>
 
 </html>
