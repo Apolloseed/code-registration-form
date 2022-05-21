@@ -12,12 +12,14 @@ body {
 }
 
 hr {
-    width: 70%;
+    width: 19em;
+    background-color: rgba(0, 0, 0, 1);
+    height: .2em;
+    margin-top: 0px;
 }
 
 fieldset {
     border: none;
-    
 }
 
 textarea {
@@ -45,10 +47,6 @@ footer {
 #zip{
 width: 50%;
 }
-
-/* NEEDS WORK!! input:hover {
-border-color: rgb(56, 77, 114);
-} */
 
 .cont {
    width: 100%;
@@ -85,4 +83,19 @@ div.news {
     font-size: 1.3em;
     padding: 1.5em;
     color:white;
+}
+
+input {
+    font-size: 18px;
+}
+input[placeholder] {
+    font-size: 14px;
+}
+
+header:first-child {
+    width: 320px;
+}
+
+input:focus, textarea:focus {
+    outline: 2px solid rgb(93, 120, 143);
 }
