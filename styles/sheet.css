@@ -7,6 +7,8 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap:wrap;
+    margin-bottom: 200px;
+    font-family: 'Montserrat', sans-serif;
    /*  justify-content: space-around; */
     /* margin-left:0; */
 }
