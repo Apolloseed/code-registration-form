@@ -9,8 +9,6 @@ body {
     flex-wrap:wrap;
     margin-bottom: 200px;
     font-family: 'Montserrat', sans-serif;
-   /*  justify-content: space-around; */
-    /* margin-left:0; */
 }
 
 hr {
@@ -66,20 +64,21 @@ border-radius: 10px;
 }
 
 div.news {
-    display: flex !important;
+    display: flex ;
     flex-wrap: nowrap;
-    margin: 0 !important;
-    padding: 0 !important;
+    margin: 0 ;
+    padding: 0;
     align-content:flex-start;
 }
 
 .intro {
+    
     text-align: center;
     width: 100vw;
 }
 
 .intro h1 {
-    max-width: 100%;
+    width: 100%;
     background: rgb(93, 120, 143);
     margin: 0;
     font-size: 1.3em;
