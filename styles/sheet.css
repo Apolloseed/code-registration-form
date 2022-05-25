@@ -6,9 +6,9 @@
 body {
     display: flex;
     flex-direction: column;
-    flex-wrap:wrap;
     margin-bottom: 200px;
     font-family: 'Montserrat', sans-serif;
+    width: 100%;
 }
 
 hr {
@@ -93,10 +93,26 @@ input[placeholder] {
     font-size: 14px;
 }
 
-header:first-child {
-    width: 320px;
-}
-
 input:focus, textarea:focus {
     outline: 2px solid rgb(93, 120, 143);
+}
+
+input::placeholder {
+font-style:italic;
+color: rgb(165, 161, 161);
+text-align: right;
+margin-right: 1.5em;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px ) {
+
+label {
+    display:inline-block;
+    width: 100%;
+    text-align: left;
+}
+
 }
