@@ -19,32 +19,32 @@
     <hr style="height:.3em;">
     <hr>
     <form>
-        <h2>Contact Information</h2>
-        <fieldset class="cont">
-            <div>
+        <legend>Contact Information</legend>
+        <fieldset>
+            <ul class="wrapper">
+            <li class="m-row">
             <label for="fullname">Full Name</label>
-            <span><input type="text" id="fullname" name="full-name" placeholder="Required">
-            </span>
-            </div>
-        <div>
+        <input class=".col" type="text" id="fullname" name="full-name" placeholder="Required">
+            </li>
+        <li  class="m-row">
             <label for="email">Email Address</label>
-            <span> <input type="email" id="email" name="full-name" placeholder="Required"></span>
-        </div>
-            <div>
+          <input class=".col" type="email" id="email" name="full-name" placeholder="Required">
+        </li>
+            <li class="m-row">
             <label for="phone">Phone Number</label>
-            <span> <input type="tel" id="phone" name="full-name"></span>
-        </div>
-            <div>
+           <input class=".col" type="tel" id="phone" name="full-name">
+            </li>
+            <li class="m-row">
             <label for="address">Street Address</label>
-            <span><input type="text" id="address" name="full-name"></span> 
-        </div>
-        <div>
+           <input class=".col" type="text" id="address" name="full-name">
+            </li>
+        <li class="m-row">
             <label for="city">City</label>
-            <span> <input type="text" id="city" name="full-name"> </span>
-        </div>
-            <div>
+            <input  class=".col" class=".col" type="text" id="city" name="full-name"> 
+        </li>
+            <li class="m-row">
             <label for="state">State</label> 
-            <span> <select id="state">
+             <select class=".col" id="state">
                     <option value="" disabled selected>Choose State</option>
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
@@ -98,13 +98,15 @@
                     <option value="WI">Wisconsin</option>
                     <option value="WY">Wyoming</option>
             </select>
-        </span>
-        </div>
+        </li>
+        <li class="m-row">
             <label for="zip">Zip Code</label>
-            <span><input type="text" id="zip" name="full-name"></span>
+            <input  class=".col" type="text" id="zip" name="full-name">
+    </li>
+    </ul>
         </fieldset>
         <hr>
-        <h2>Newsletter</h2>
+        <legend>Newsletter</legend>
         <fieldset>
             <label>Select the newsletters you would like to recieve</label>
             <br>
