@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-bottom: 200px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Merriweather', serif;
     width: 100%;
 }
 
@@ -75,7 +75,6 @@ text-align: right;
 margin-right: 1.5em;
 }
 
-
 #zip{
 width: 50%;
 display: flex;
@@ -122,6 +121,7 @@ div.news {
     padding: 1.5em;
     color:white;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .wrapper {
@@ -154,6 +154,11 @@ div.news {
 
  .m-row > label {
     flex: 1;
+    margin: auto;
+ }
+
+ .m-row > input, select {
+     flex: 3;
  }
 
     hr {
