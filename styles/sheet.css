@@ -87,7 +87,7 @@ margin-top: 1em;
    height: 100%;
 }
 
-fieldset.cont input, #state {
+fieldset.cont input, #state, .m-row > input  {
 width: 100%;
 height: 60px;
 background-color: rgb(235, 233, 233);
@@ -126,16 +126,19 @@ div.news {
 
 .wrapper {
     list-style-type: none;
+    padding-left: 0px;
 }
 
 .m-row {
     display: flex;
-    justify-content: flex-start; 
+   align-items: flex-start; 
     flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 .m-row > input {
-    flex: 1;
+    height: 3em;
 }
 
 /* MEDIA QUERIES */
@@ -144,18 +147,17 @@ div.news {
     body {
      max-width: 100%;
     }
+ .m-row {
+     flex-direction: row;
+     justify-content: flex-end;
+ }
 
-    div {
-        margin-bottom: 10px;
-      }
-      
- 
+ .m-row > label {
+    flex: 1;
+ }
+
     hr {
         width: 100%;
-    }
-
-    .news {
-        margin-left: 10em;
     }
 
  #zip {
