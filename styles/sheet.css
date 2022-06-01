@@ -86,7 +86,7 @@ margin-top: 1em;
    height: 100%;
 }
 
-fieldset.cont input, #state, .m-row > input  {
+fieldset.cont input, #state, .m-row > input, .zip-row > input  {
 width: 100%;
 height: 60px;
 background-color: rgb(235, 233, 233);
@@ -121,7 +121,6 @@ div.news {
     padding: 1.5em;
     color:white;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .wrapper {
@@ -146,6 +145,7 @@ div.news {
 @media screen and (min-width: 768px ) {
     body {
      max-width: 100%;
+     overflow-x: hidden;
     }
  .m-row {
      flex-direction: row;
@@ -165,9 +165,20 @@ div.news {
         width: 100%;
     }
 
- #zip {
-     width: 25%;
+ .zip-row {
+    display: flex;
+    flex-direction: row;
+   width: 50%;
  }
-      
+
+ .zip-row > label {
+     flex:1;
+     margin: auto;
+ }
+
+ .zip-row > input {
+    max-width: 100%;
+    width: 25%;
+ }
       
 }

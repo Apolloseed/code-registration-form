@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="styles/sheet.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Akshar&family=Montserrat&family=Source+Sans+3:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 <title>Code Review</title>
 </head>
 
@@ -19,8 +19,9 @@
     <hr style="height:.3em;">
     <hr>
     <form>
-        <legend>Contact Information</legend>
+        <br>
         <fieldset>
+            <legend>Contact Information</legend>
             <ul class="wrapper">
             <li class="m-row">
             <label for="fullname">Full Name</label>
@@ -40,11 +41,11 @@
             </li>
         <li class="m-row">
             <label for="city">City</label>
-            <input  class=".col" class=".col" type="text" id="city" name="full-name"> 
+            <input  class=".col" type="text" id="city" name="full-name"> 
         </li>
             <li class="m-row">
             <label for="state">State</label> 
-             <select class=".col" id="state">
+             <select class=".col" id="state" name="select-state">
                     <option value="" disabled selected>Choose State</option>
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
@@ -99,15 +100,16 @@
                     <option value="WY">Wyoming</option>
             </select>
         </li>
-        <li class="m-row">
+        <li class="zip-row">
             <label for="zip">Zip Code</label>
             <input  class=".col" type="text" id="zip" name="full-name">
     </li>
     </ul>
         </fieldset>
         <hr>
-        <legend>Newsletter</legend>
+        <br>
         <fieldset>
+            <legend>Newsletter</legend>
             <label>Select the newsletters you would like to recieve</label>
             <br>
             <br>
